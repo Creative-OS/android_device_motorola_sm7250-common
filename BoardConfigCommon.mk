@@ -170,7 +170,7 @@ USE_DEVICE_SPECIFIC_GPS := true
 
 # HIDL
 DEVICE_MATRIX_FILE := $(VENDOR_PATH)/compatibility_matrix.xml
-DEVICE_MANIFEST_FILE := $(VENDOR_PATH)/manifest.xml
+DEVICE_MANIFEST_FILE += $(VENDOR_PATH)/manifest.xml
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(VENDOR_PATH):libinit_lito

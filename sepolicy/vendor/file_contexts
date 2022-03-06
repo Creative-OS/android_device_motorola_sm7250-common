@@ -23,6 +23,9 @@
 /(vendor|system/vendor)/bin/capsense_reset                                 u:object_r:capsense_reset_exec:s0
 /(vendor|system/vendor)/bin/motpsd                                         u:object_r:motpsd_exec:s0
 
+# LiveDisplay
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@2\.1-service\.motorola_lito    u:object_r:hal_lineage_livedisplay_qti_exec:s0
+
 # NFC
 /(vendor|system/vendor)/bin/hw/android\.hardware\.nfc@1\.2-service.st      u:object_r:hal_nfc_default_exec:s0
 /dev/st21nfc                                                               u:object_r:nfc_device:s0
